@@ -1,0 +1,7 @@
+#include "setup_resource.h"
+
+IDI_SETUP ICON "icon.ico"
+IDR_CPS_EXE RCDATA "CPS by Rafu.exe"
+IDR_PRODUCT_ICON RCDATA "icon.ico"
+IDR_README RCDATA "README.txt"
+1 24 "setup.manifest"

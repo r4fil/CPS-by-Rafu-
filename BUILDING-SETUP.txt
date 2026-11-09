@@ -1,0 +1,21 @@
+CPS by Rafu - building the setup executable
+
+Ready-to-use installer:
+  CPS by Rafu Setup.exe
+
+To rebuild the setup executable on this Windows PC:
+1. Keep the InstallerProject folder intact. It contains the app, icon, readme,
+   installer source, resource script, and build script.
+2. Install Visual Studio Build Tools with the Desktop development with C++
+   workload if they are not already installed.
+3. Open Command Prompt, change to the InstallerProject folder, and run:
+     build_setup.bat
+4. The rebuilt installer will be written into InstallerProject as
+   CPS by Rafu Setup.exe.
+
+The setup installs for the current Windows account under:
+  %LOCALAPPDATA%\Programs\CPS by Rafu
+
+It creates a Start Menu shortcut, optionally creates a desktop shortcut, and
+adds an Uninstall entry in Windows Settings. It does not require administrator
+access.

@@ -1,0 +1,25 @@
+#include <windows.h>
+#include "resource.h"
+1 RT_MANIFEST "app.manifest"
+IDI_APP ICON "icon.ico"
+1 VERSIONINFO
+FILEVERSION 2,0,0,0
+PRODUCTVERSION 2,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Rafu"
+      VALUE "FileDescription", "CPS by Rafu - CPS controller"
+      VALUE "FileVersion", "2.0.0.0"
+      VALUE "ProductName", "CPS by Rafu"
+      VALUE "OriginalFilename", "CPS by Rafu.exe"
+      VALUE "LegalCopyright", "Developed by Rafu"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
