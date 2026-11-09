@@ -15,6 +15,12 @@ A lightweight Windows desktop click automation tool with a modern control panel.
 - Saves the selected CPS and hotkeys between sessions
 - No extra drivers required
 
+## Windows security notice
+
+The app and installer are currently unsigned and distributed outside the Microsoft Store. Windows Defender SmartScreen may show an unrecognized-app warning, such as “Windows protected your PC,” because the files do not have a verified code-signing identity or established download reputation. This warning alone does not confirm malware, but it is not proof that a file is safe either. [Microsoft explains SmartScreen reputation and unsigned apps here](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
+
+This is separate from purchasing a Windows license: code signing uses a signing certificate. Download the files only from this project's official GitHub repository or release. If Microsoft Defender Antivirus specifically reports a threat, do not disable Defender or bypass the detection; review the detection details and submit a suspected false positive to [Microsoft for analysis](https://www.microsoft.com/wdsi/filesubmission).
+
 ## Install
 
 1. Download **CPS by Rafu Setup.exe** from the project's GitHub Releases page.
@@ -92,4 +98,4 @@ The script creates `CPS by Rafu Setup.exe` in that folder. It uses the Visual St
 
 ## License
 
-No license has been selected for this project yet. Add a `LICENSE` file when you decide how others may use or distribute the code.
+This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
